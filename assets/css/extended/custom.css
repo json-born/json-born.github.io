@@ -1,0 +1,4 @@
+/* Fix the min-height issue on first entry that causes the large gap */
+.first-entry {
+    min-height: auto !important;
+}

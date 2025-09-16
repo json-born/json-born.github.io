@@ -1,0 +1,42 @@
+baseURL = 'https://json-born.github.io/'
+languageCode = 'en-us'
+title = 'Everything I found out'
+theme = 'PaperMod'
+
+[params]
+  # Homepage mode - this ensures posts show with proper styling
+  mode = "home"
+
+  # Homepage info
+  [params.homeInfoParams]
+    Title = "Welcome 👋"
+    Content = "This is the blog of Domenico Salvia aka json-born, a 33 year old software engineer from the UK. Follow along whilst I chase my lifelong ambition to build virtual worlds."
+
+  # Show read time and word count
+  ShowReadingTime = true
+  ShowWordCount = true
+
+  # Show post summary on homepage
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+  # Social icons
+  ShowShareButtons = true
+
+  # Social links
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/json-born"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
