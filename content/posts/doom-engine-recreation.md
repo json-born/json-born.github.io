@@ -4,7 +4,7 @@ date: 2025-09-19T18:50:00+01:00
 draft: false
 tags: ["C++", "Game Development", "Devlog", "DOOM Engine Series"]
 cover:
-  image: "/images/doom_logo.webp"
+  image: "/images/doom-logo.webp"
   alt: "DOOM Logo"
   caption: "Exploring the legendary DOOM engine"
 ---
