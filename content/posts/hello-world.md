@@ -2,23 +2,23 @@
 title: "Hello World!"
 date: 2025-09-19T18:43:00+01:00
 draft: false
-tags: ["Hello World!"]
+tags: ["Hello World"]
 ---
 
-My earliest gaming memory is sitting on my Dad's lap at 4 or 5 years old, firing the shotgun in DOOM while he handled the movement. Even at that age it dawned on me that the monitor was a window into another world...
+My earliest gaming memory is sitting on my dad’s lap at four or five, firing the shotgun in DOOM while he handled the movement. I had no idea what I was doing, and I’m pretty sure the game was way too intense for a toddler. Even so, I remember staring at the screen and being completely fascinated, caught up in this strange new world I didn’t fully understand but couldn’t look away from.
 
-When I was 9 or 10, my Dad asked me what I thought I might want to do when I was older, and without much thought, I told him I wanted to make computer games. When it came time to think about University, I remembered that conversation, said fuck it, and applied to study Computer Science with a specialisation in games at the University of Brighton.
+By the time I was nine or ten, my dad asked me what I wanted to do when I grew up. Without much thought, I told him I wanted to make computer games. Years later, when it came time to pick a university course, I remembered that conversation, shrugged, and applied to study Computer Science with a games specialization at the University of Brighton.
 
-After graduating with a 2:1, a £2k overdraft, £25k in student loan debt and a strong desire to get drunk and make music with my friends, I got my first job as a junior web developer at a tiny start up in Brighton, UK. That was 13 years ago, and I'm still working in the same industry as a Software Architect.
+I graduated with a 2:1, a £2k overdraft, £25k in student loans, and a strong desire to get drunk and make music with my friends. I was passionate about coding, but I wasn’t ready to make a conventional office job the center of my life. My first job was as a junior web developer at a tiny startup in Brighton, UK. That was thirteen years ago. Today, I work in the same industry as a Software Architect.
 
-I'm sad to say, I've barely written a line of C++ since Uni. That mostly stems from fear I think. I have and always have had a genuine desire to create things for myself and for others, but I also fear failure and greater than that, I also fear success. I don't think this is uncommon, it's very typical of Millennials.
+I’m sad to say I’ve barely written a line of C++ since uni. Part of that stems from fear. I’ve always had a genuine desire to create for myself and for others, but I’ve also feared failure, and oddly enough, success. I suspect this isn’t unusual, it seems like a very Millennial thing.
 
-Over the years, my skills as a programmer have really come along. Outside of work, I've hard-committed to numerous creative hobbies at various junctures in my life: music production, martial arts, poker, cooking and songwriting to name a few. I finally feel confident enough in my abilities as both a problem solver and a creative to take the plunge and chase the original dream, to build virtual worlds.
+Over the years, my skills as a programmer have developed more than I ever imagined they would. Outside of work, I’ve dabbled in a bunch of creative pursuits: music production, martial arts, poker, cooking, songwriting. And now I finally feel confident enough in both my problem-solving and creative abilities to take the plunge and chase that original dream: building virtual worlds.
 
-I'm starting this devlog to document that journey. My long-term goal is ambitious but clear: to write and release my own indie game. In the short term, I plan to study the work of the early pioneers and sharpen my C++ whilst doing so, diving deep into programming concepts, game engines, design principles, and probably some maths I should have paid more attention to at Uni.
+This devlog is where that journey begins. My long-term goal is ambitious but clear: to write and release my own indie game. In the short term, I’ll study the pioneers, sharpen my C++, and dive deep into programming concepts, game engines, design principles, and yes, the maths I probably should have paid more attention to at uni!
 
-I'll be documenting everything along the way. The experiments and toy projects, programming concepts as I learn them, design decisions and why they worked (or didn't), tools and resources that actually help, and inevitably, the mistakes and dead ends (probably a lot of these).
+I’ll document everything along the way: experiments and toy projects, programming concepts as I learn them, design decisions and whether they worked, tools and resources that actually help, and inevitably, the mistakes and dead ends, probably a lot of those.
 
-I guess you could say this is my hello world moment for game development.
+You could say this is my “Hello World” moment for game development.
 
-Let's see where I end up.
+Let’s see where it takes me.
