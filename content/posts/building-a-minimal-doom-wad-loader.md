@@ -7,7 +7,6 @@ draft: false
 
 I wanted to learn how Doom’s WAD files work, so I wrote a simple loader in C++.
 My goal was just to open a WAD, read its contents, and understand how it’s structured.
-The code isn’t fancy or optimized — it’s just a clean, minimal implementation that does the job.
 
 ---
 
@@ -68,7 +67,7 @@ struct Wad {
 - `directoryMap` lets me look up lumps by name.
 - `data` holds the entire WAD file in memory.
 
-Keeping the full file in memory simplifies things — I can slice directly from it when I need lump data, without reopening or seeking through the file again.
+Keeping the full file in memory simplifies things, I can slice directly from it when I need lump data, without reopening or seeking through the file again.
 
 ---
 
@@ -97,7 +96,7 @@ This function does three things:
 2. Allocates a buffer large enough to hold the whole file and reads it.
 3. Seeks back to the beginning for the next read.
 
-Resetting the cursor is important — otherwise, the next read (for the header) will start at the end of the file and return garbage.
+Resetting the cursor is important, otherwise the next read (for the header) will start at the end of the file and return garbage.
 
 ---
 
@@ -369,7 +368,7 @@ This version does a few useful things:
 - Prints the WAD header information for quick verification.
 - Lists all lumps and their positions and sizes.
 - Looks up a specific lump (in this case, `PLAYPAL`) and reads it into a vector.
-- Prints the first 32 bytes in hexadecimal — a quick sanity check that I’m reading real data and not zeroes or garbage.
+- Prints the first 32 bytes in hexadecimal: a quick sanity check that I’m reading real data and not zeroes or garbage.
 
 It’s not polished, but it’s practical and also very temporary.
 
@@ -384,7 +383,7 @@ The loader now:
 - Handles padded 8-character names without breaking map keys.
 - Provides direct access to lump data by name.
 
-From here I can start building on it — parsing palettes, maps, textures, or even writing tools that inspect and modify WAD contents.
+From here I can start building on it: parsing palettes, maps, textures, or even writing tools that inspect and modify WAD contents.
 The code is intentionally simple so it’s easy to extend.
 
 ---
