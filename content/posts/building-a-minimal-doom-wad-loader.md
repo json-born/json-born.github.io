@@ -1,12 +1,12 @@
 ---
-title: "Building a Minimal Doom WAD Loader in C++"
+title: "Building a Minimal Doom WAD Loader"
 date: 2025-10-24
 tags: ["C++", "Game Development", "Devlog", "DOOM Engine Series"]
 draft: false
 ---
 
-I wanted to learn how Doom’s WAD files work, so I wrote a simple loader in C++.
-My goal was just to open a WAD, read its contents, and understand how it’s structured.
+I wanted to learn how Doom’s WAD files work, so I wrote a simple loader.
+My goal was just to understand how a WAD is structured, open it and read its contents.
 
 ---
 
@@ -311,7 +311,7 @@ Here’s how mine ended up:
 ```cpp
 int main() {
     try {
-        Wad wad = loadWad("doom.wad");  // replace with your WAD file path
+        Wad wad = loadWad("doom.wad");
 
         // Print header
         std::cout << "WAD ID: " << wad.header.id << "\n";
@@ -369,8 +369,6 @@ This version does a few useful things:
 - Lists all lumps and their positions and sizes.
 - Looks up a specific lump (in this case, `PLAYPAL`) and reads it into a vector.
 - Prints the first 32 bytes in hexadecimal: a quick sanity check that I’m reading real data and not zeroes or garbage.
-
-It’s not polished, but it’s practical and also very temporary.
 
 ---
 
